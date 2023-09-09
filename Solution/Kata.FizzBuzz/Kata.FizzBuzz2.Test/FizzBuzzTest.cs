@@ -12,7 +12,7 @@ namespace Kata.FizzBuzz2.Test
         [Test]
         public void ShouldGetDefault()
         {
-           var reponse = WholeNumberFactory.CreateDefault().ToString();
+           var reponse = WholeNaturalFactory.CreateDefault().ToString();
 
             Assert.That(reponse, Is.EqualTo("1"));
         }
@@ -20,7 +20,7 @@ namespace Kata.FizzBuzz2.Test
         [Test]
         public void ShouldGet2()
         {
-            var reponse = WholeNumberFactory.Create(2).ToString();
+            var reponse = WholeNaturalFactory.Create(2).ToString();
 
             Assert.That(reponse, Is.EqualTo("2"));
         }
@@ -28,7 +28,7 @@ namespace Kata.FizzBuzz2.Test
         [Test]
         public void ShouldGetFizzWith3()
         {
-            var reponse = WholeNumberFactory.Create(3).ToString();
+            var reponse = WholeNaturalFactory.Create(3).ToString();
 
             Assert.That (reponse, Is.EqualTo("Fizz"));
         }
@@ -36,7 +36,7 @@ namespace Kata.FizzBuzz2.Test
         [Test]
         public void ShouldGetFizzWith6()
         {
-            var reponse = WholeNumberFactory.Create(6).ToString();
+            var reponse = WholeNaturalFactory.Create(6).ToString();
 
             Assert.That(reponse, Is.EqualTo("Fizz"));
         }
@@ -44,7 +44,7 @@ namespace Kata.FizzBuzz2.Test
         [Test]
         public void ShouldGetBuzzWith5()
         {
-            var reponse = WholeNumberFactory.Create(5).ToString();
+            var reponse = WholeNaturalFactory.Create(5).ToString();
 
             Assert.That(reponse, Is.EqualTo("Buzz"));
         }  
@@ -52,7 +52,7 @@ namespace Kata.FizzBuzz2.Test
         [Test]
         public void ShouldGetBuzzWith10()
         {
-            var reponse = WholeNumberFactory.Create(10).ToString();
+            var reponse = WholeNaturalFactory.Create(10).ToString();
 
             Assert.That(reponse, Is.EqualTo("Buzz"));
         }  
@@ -60,7 +60,7 @@ namespace Kata.FizzBuzz2.Test
         [Test]
         public void ShouldGetBuzzWith15()
         {
-            var reponse = WholeNumberFactory.Create(15).ToString();
+            var reponse = WholeNaturalFactory.Create(15).ToString();
 
             Assert.That(reponse, Is.EqualTo("FizzBuzz"));
         } 
@@ -68,7 +68,7 @@ namespace Kata.FizzBuzz2.Test
         [Test]
         public void ShouldGetBuzzWith30()
         {
-            var reponse = WholeNumberFactory.Create(30).ToString();
+            var reponse = WholeNaturalFactory.Create(30).ToString();
 
             Assert.That(reponse, Is.EqualTo("FizzBuzz"));
         }
