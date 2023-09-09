@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.FizzBuzz", "Kata.FizzBuzz\Kata.FizzBuzz.csproj", "{ECA4A530-B4ED-482D-8D23-92804F4BB9AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.FizzBuzz.Test", "Kata.FizzBuzz2.Test\Kata.FizzBuzz.Test.csproj", "{58ADE78B-349A-4BC6-B5E4-96AF82980DF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA4A530-B4ED-482D-8D23-92804F4BB9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA4A530-B4ED-482D-8D23-92804F4BB9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA4A530-B4ED-482D-8D23-92804F4BB9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA4A530-B4ED-482D-8D23-92804F4BB9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58ADE78B-349A-4BC6-B5E4-96AF82980DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58ADE78B-349A-4BC6-B5E4-96AF82980DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58ADE78B-349A-4BC6-B5E4-96AF82980DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58ADE78B-349A-4BC6-B5E4-96AF82980DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4472D834-FF82-4C17-8E3B-4C388281C14A}
+	EndGlobalSection
+EndGlobal
