@@ -2,7 +2,7 @@
 
 namespace Kata.FizzBuzz.Factories
 {
-    public class WholeNumberFactory
+    public class WholeNaturalFactory
     {
         public static WholeNatural CreateDefault()
         {
