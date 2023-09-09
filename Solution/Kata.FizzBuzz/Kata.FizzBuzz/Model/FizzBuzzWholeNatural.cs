@@ -1,16 +1,16 @@
 ﻿namespace Kata.FizzBuzz.Model
 {
-    public class FizzBuzzWholeNumber : WholeNumber
+    public class FizzBuzzWholeNatural : WholeNatural
     {
         private const string FIZZBUZZ_RESPONSE = "FizzBuzz";
 
-        private FizzBuzzWholeNumber(int number) : base(number)
+        private FizzBuzzWholeNatural(int number) : base(number)
         {
         }
 
-        public static WholeNumber Create(int number)
+        public static WholeNatural Create(int number)
         {
-            return new FizzBuzzWholeNumber(number);
+            return new FizzBuzzWholeNatural(number);
         }
 
         public override string ToString()

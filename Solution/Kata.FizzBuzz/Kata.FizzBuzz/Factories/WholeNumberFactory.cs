@@ -4,18 +4,18 @@ namespace Kata.FizzBuzz.Factories
 {
     public class WholeNumberFactory
     {
-        public static WholeNumber CreateDefault()
+        public static WholeNatural CreateDefault()
         {
-            return NormalWholeNumber.Create();
+            return NormalWholeNatural.Create();
         }
 
-        public static WholeNumber Create(int number)
+        public static WholeNatural Create(int number)
         => number switch
              {
-                 int n when n % 3 == 0 && n % 5 == 0 => FizzBuzzWholeNumber.Create(number),
-                 int n when n % 3 == 0 => FizzWholeNumber.Create(number),
-                 int n when n % 5 == 0 => BuzzWholeNumber.Create(number),
-                 _ => NormalWholeNumber.Create(number),
+                 int n when n % 3 == 0 && n % 5 == 0 => FizzBuzzWholeNatural.Create(number),
+                 int n when n % 3 == 0 => FizzWholeNatural.Create(number),
+                 int n when n % 5 == 0 => BuzzWholeNatural.Create(number),
+                 _ => NormalWholeNatural.Create(number),
              };
 
     }

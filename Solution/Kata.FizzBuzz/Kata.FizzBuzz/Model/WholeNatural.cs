@@ -1,15 +1,15 @@
 ﻿namespace Kata.FizzBuzz.Model
 {
-    public abstract class WholeNumber
+    public abstract class WholeNatural
     {
         private const int DEFAULT_NUMBER = 1;
 
-        protected WholeNumber(int number)
+        protected WholeNatural(int number)
         {
             Number = number;
         }
 
-        protected WholeNumber()
+        protected WholeNatural()
         {
             Number = DEFAULT_NUMBER;
         }
