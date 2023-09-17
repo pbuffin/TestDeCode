@@ -10,7 +10,7 @@ namespace Kata.FizzBuzz.Models
         private const string Fizz = "Fizz";
         private const string Buzz = "Buzz";
 
-        public WholeNatural(int value)
+        private WholeNatural(int value)
         {
             Value = value;
         }
