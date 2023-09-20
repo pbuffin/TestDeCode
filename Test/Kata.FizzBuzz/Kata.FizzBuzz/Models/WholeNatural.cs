@@ -15,7 +15,7 @@ namespace Kata.FizzBuzz.Models
             Value = value;
         }
 
-        public int Value { get; set; }
+        public int Value { get; }
         public static WholeNatural Create(int value)
         {
             return new WholeNatural(value);
